@@ -1,0 +1,23 @@
+{
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "plugins": [
+    "prettier"
+  ],
+  "extends": [
+    "airbnb",
+    "plugin:prettier/recommended",
+    "plugin:no-template-curly-in-string-fix/recommended"
+  ],
+  "parser": "babel-eslint",
+  "rules": {
+    "semi": [
+      2,
+      "always"
+    ],
+    "eqeqeq": "off",
+    "no-console": 1
+  }
+}
